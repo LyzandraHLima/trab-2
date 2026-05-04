@@ -15,6 +15,16 @@ if (!isset($_SESSION['series_v2'])) {
         ['id' =>  9, 'titulo' => 'You',                    'genero' => 'Suspense', 'nota' => 8],
         ['id' => 10, 'titulo' => 'The Boys',               'genero' => 'Ação',    'nota' => 9],
         ['id' => 11, 'titulo' => 'Vikings',                'genero' => 'Ação',    'nota' => 8],
+        //
+        ['id' => 12, 'titulo' => 'NARUTO',                'genero' => 'SHOUNEN',    'nota' => 10],
+        ['id' => 13, 'titulo' => 'Motoqueiro Fantasma',                'genero' => 'Ação',    'nota' => 10],
+        ['id' => 14, 'titulo' => 'Hereditario',                'genero' => 'Terror',    'nota' => 10],
+        ['id' => 15, 'titulo' => 'IT',                'genero' => 'Terror',    'nota' => 10],
+        ['id' => 16, 'titulo' => 'O silencio dos Inocentes',                'genero' => 'Suspense',    'nota' => 10],
+        ['id' => 17, 'titulo' => 'Crepusculo',                'genero' => 'Romance',    'nota' => 10],
+        ['id' => 18, 'titulo' => 'InterEstelar',                'genero' => 'Ficção Cientifica',    'nota' => 10],
+        ['id' => 19, 'titulo' => 'A Chegada',                'genero' => 'Ficção Cientifica',    'nota' => 10],
+        ['id' => 20, 'titulo' => 'A Espera de Um Milagre',                'genero' => 'Drama',    'nota' => 10],
     ];
     $_SESSION['next_id'] = 12;
 }
