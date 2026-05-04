@@ -14,7 +14,8 @@ if (!isset($_SESSION['series_v2'])) {
         ['id' =>  8, 'titulo' => 'Baby',                   'genero' => 'Drama',    'nota' => 7],
         ['id' =>  9, 'titulo' => 'You',                    'genero' => 'Suspense', 'nota' => 8],
         ['id' => 10, 'titulo' => 'The Boys',               'genero' => 'Ação',    'nota' => 9],
-        ['id' => 11, 'titulo' => 'Vikings',                'genero' => 'Ação',    'nota' => 8],
+        ['id' => 11, 'titulo' => 'Vikings',                'genero' => 'Ação',    'nota' => 7],
+        ['id' => 12, 'titulo' => 'O poderoso chefão', 'genero' => 'Drama/Crime',    'nota' => 10]
     ];
     $_SESSION['next_id'] = 12;
 }
