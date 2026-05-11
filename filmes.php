@@ -15,9 +15,10 @@ if (!isset($_SESSION['series_v2'])) {
         ['id' =>  9, 'titulo' => 'You',                    'genero' => 'Suspense', 'nota' => 8],
         ['id' => 10, 'titulo' => 'The Boys',               'genero' => 'Ação',    'nota' => 9],
         ['id' => 11, 'titulo' => 'Vikings',                'genero' => 'Ação',    'nota' => 7],
-        ['id' => 12, 'titulo' => 'O poderoso chefão', 'genero' => 'Drama/Crime',    'nota' => 10]
+        ['id' => 12, 'titulo' => 'O poderoso chefão', 'genero' => 'Drama/Crime',    'nota' => 10],
+        ['id' => 13, 'titulo' => 'O poderoso chefão 2', 'genero' => 'Drama/Crime',    'nota' => 11],
     ];
-    $_SESSION['next_id'] = 12;
+    $_SESSION['next_id'] = 14;
 }
 
 $series  = &$_SESSION['series_v2'];
